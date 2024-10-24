@@ -39,25 +39,15 @@ The application takes user input for features like the number of bedrooms, area,
 
 ## Setup and Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AnitxD001/CCU-House-Rent.git
-   ```
+1. Download the dataset CSV file and place it in the project directory. Ensure that the dataset is named `Kolkata_rent.csv`.
 
-2. Download the dataset CSV file and place it in the project directory. Ensure that the dataset is named `kolkata_rent_data.csv`.
-
-3. Install the required Python packages:
+2. Run the prediction script:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the prediction script:
-   ```bash
-   python predict_rent.py
+   python kolkata house rent.ipynb
    ```
 
 That's it! The script will use the provided dataset to train the model and make predictions based on user inputs.
-you can refer to the list of locations text file to get a view of all the locations used in the prediction model
+You can refer to the list of locations text file to get a view of all the locations used in the prediction model
 
 ## Usage
 Once the setup is complete, you can input the required details to get the predicted house rent for a property. The script will ask for:
